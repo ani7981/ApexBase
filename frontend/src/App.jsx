@@ -568,9 +568,6 @@ export default function App() {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xl font-black text-white tracking-tight uppercase">ApexBase</span>
-                  <span className="text-[10px] uppercase font-black tracking-wider px-2 py-0.5 bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]">
-                    DARK NEOBRUTALISM
-                  </span>
                 </div>
                 <p className="text-[11px] text-slate-400 font-bold hidden sm:block">Tactical Air Fleet & Sortie Operations Command</p>
               </div>

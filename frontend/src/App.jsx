@@ -25,9 +25,8 @@ function Tooltip({ text, children, isNeo }) {
 }
 
 export default function App() {
-  // Theme Toggle: 'neobrutalism' | 'minimal'
-  const [theme, setTheme] = useState('neobrutalism');
-  const isNeo = theme === 'neobrutalism';
+  // Visual Theme: Dark Neobrutalism (Fixed)
+  const isNeo = true;
 
   // Fighter Jet Takeoff Intro State
   const [showIntro, setShowIntro] = useState(true);
@@ -399,7 +398,7 @@ export default function App() {
       subtitle: "TOP TOOLBAR // STEP 02",
       content: (
         <p>
-          Use the top toolbar to replay the Fighter Jet intro, switch between <strong>Dark Neobrutalism</strong> and <strong>Minimal C2</strong> themes, or manually populate demo data with the <strong className="text-[#ffe600]">Seed Demo</strong> button. (Everything is manual; no data is seeded without your click!)
+          Use the top toolbar to replay the Fighter Jet intro, launch the Interactive Guide, or manually populate demo data with the <strong className="text-[#ffe600]">Seed Demo</strong> button. (Everything is manual; no data is seeded without your click!)
         </p>
       ),
       tip: "You can restart this interactive walkthrough anytime by clicking the 'Interactive Guide' button.",
@@ -569,19 +568,15 @@ export default function App() {
               <div>
                 <div className="flex items-center gap-2">
                   <span className="text-xl font-black text-white tracking-tight uppercase">ApexBase</span>
-                  <span className={`text-[10px] uppercase font-black tracking-wider px-2 py-0.5 ${
-                    isNeo 
-                      ? 'bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]' 
-                      : 'rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20'
-                  }`}>
-                    {isNeo ? 'DARK NEOBRUTALISM' : 'MINIMAL C2'}
+                  <span className="text-[10px] uppercase font-black tracking-wider px-2 py-0.5 bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]">
+                    DARK NEOBRUTALISM
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-400 font-bold hidden sm:block">Tactical Air Fleet & Sortie Operations Command</p>
               </div>
             </div>
 
-            {/* Quick Actions & Theme Switcher */}
+            {/* Quick Actions */}
             <div className="flex items-center gap-2" data-tour="header-actions">
               
               {/* JET INTRO BUTTON */}
@@ -615,34 +610,6 @@ export default function App() {
                 <Compass className="w-3.5 h-3.5 stroke-[2.5]" />
                 <span>Interactive Guide</span>
               </button>
-
-              {/* Theme Toggle Button */}
-              <div className={`flex items-center p-0.5 ${
-                isNeo ? 'border-2 border-black bg-black shadow-[2px_2px_0px_#000]' : 'border border-slate-700 bg-slate-900 rounded-md'
-              }`}>
-                <button
-                  onClick={() => setTheme('neobrutalism')}
-                  className={`px-2.5 py-1 text-[11px] font-black uppercase transition-all cursor-pointer ${
-                    isNeo 
-                      ? 'bg-[#00ff66] text-black' 
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                  title="Switch to Dark Neobrutalism"
-                >
-                  Neo-Brutal
-                </button>
-                <button
-                  onClick={() => setTheme('minimal')}
-                  className={`px-2.5 py-1 text-[11px] font-black uppercase transition-all cursor-pointer ${
-                    !isNeo 
-                      ? 'bg-emerald-500 text-black rounded' 
-                      : 'text-slate-400 hover:text-white'
-                  }`}
-                  title="Switch to Minimal C2"
-                >
-                  Minimal
-                </button>
-              </div>
 
               <button 
                 onClick={handleSeed}

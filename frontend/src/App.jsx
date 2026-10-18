@@ -787,13 +787,6 @@ export default function App() {
                   Assemble and authorize operational flights by pairing available jets, qualified pilots, and weapons.
                 </p>
               </div>
-              <div className="flex items-center gap-2">
-                <span className={`text-[10px] font-black uppercase px-2.5 py-1 ${
-                  isNeo ? 'bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]' : 'rounded bg-slate-800 text-slate-300 border border-slate-700'
-                }`}>
-                  Ternary Manifest + Aggregation Block
-                </span>
-              </div>
             </div>
 
             {/* Beginner Explanation Banner */}
@@ -1176,11 +1169,6 @@ export default function App() {
                   Organizational chart showing how squadrons report up to higher headquarters.
                 </p>
               </div>
-              <span className={`text-[10px] font-black uppercase px-2.5 py-1 ${
-                isNeo ? 'bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]' : 'rounded bg-slate-800 text-slate-300 border border-slate-700'
-              }`}>
-                Recursive Reports_to (1:N)
-              </span>
             </div>
 
             {/* Beginner Explanation Banner */}
@@ -1684,11 +1672,6 @@ export default function App() {
                   Weapon warehouse: track missile stocks and see what is currently in flight.
                 </p>
               </div>
-              <span className={`text-[10px] font-black uppercase px-2.5 py-1 ${
-                isNeo ? 'bg-[#00e5ff] text-black border-2 border-black shadow-[2px_2px_0px_#000]' : 'rounded bg-slate-800 text-slate-300 border border-slate-700'
-              }`}>
-                Uses_loadout (M:N) Relationship
-              </span>
             </div>
 
             {/* Beginner Explanation Banner */}
@@ -1778,11 +1761,6 @@ export default function App() {
                   The database brain: run live Cypher queries and test graph traversal algorithms.
                 </p>
               </div>
-              <span className={`text-[10px] font-black uppercase px-2.5 py-1 ${
-                isNeo ? 'bg-[#ff3366] text-white border-2 border-black shadow-[2px_2px_0px_#000]' : 'rounded bg-slate-800 text-slate-300 border border-slate-700'
-              }`}>
-                Neo4j Bolt Engine
-              </span>
             </div>
 
             {/* Beginner Explanation Banner */}

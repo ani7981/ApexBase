@@ -1,0 +1,442 @@
+<svg width="1304pt" height="1082pt" viewBox="0.00 0.00 1303.55 1081.80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(36 1045.8)">
+<title>ER_Diagram</title>
+<polygon fill="white" stroke="none" points="-36,36 -36,-1045.8 1267.55,-1045.8 1267.55,36 -36,36"/>
+<g id="clust1" class="cluster">
+<title>cluster_Aggregation</title>
+<polygon fill="none" stroke="#1565c0" stroke-dasharray="5,2" points="578.78,-492.4 578.78,-610.4 722.22,-610.4 722.22,-492.4 578.78,-492.4"/>
+<text text-anchor="middle" x="650.5" y="-593.8" font-family="Times,serif" font-size="14.00" fill="#1565c0">Aggregation Block</text>
+</g>
+<!-- Squadron -->
+<g id="node1" class="node">
+<title>Squadron</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="63.71,-591.4 0,-591.4 0,-555.4 63.71,-555.4 63.71,-591.4"/>
+<text text-anchor="middle" x="31.85" y="-570.1" font-family="Helvetica,sans-Serif" font-size="11.00">Squadron</text>
+</g>
+<!-- Reports_to -->
+<g id="node11" class="node">
+<title>Reports_to</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="278.66,-688 222,-666.4 278.66,-644.8 335.31,-666.4 278.66,-688"/>
+<text text-anchor="middle" x="278.66" y="-663.1" font-family="Helvetica,sans-Serif" font-size="11.00">Reports_to</text>
+</g>
+<!-- Squadron&#45;&#45;Reports_to -->
+<g id="edge13" class="edge">
+<title>Squadron--Reports_to</title>
+<path fill="none" stroke="black" d="M63.86,-585.18C111.72,-603.36 202.89,-638 249.18,-655.58"/>
+<text text-anchor="middle" x="141.87" y="-628.77" font-family="Helvetica,sans-Serif" font-size="11.00">Commander</text>
+</g>
+<!-- Employs -->
+<g id="node12" class="node">
+<title>Employs</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="278.66,-595 231.44,-573.4 278.66,-551.8 325.87,-573.4 278.66,-595"/>
+<text text-anchor="middle" x="278.66" y="-570.1" font-family="Helvetica,sans-Serif" font-size="11.00">Employs</text>
+</g>
+<!-- Squadron&#45;&#45;Employs -->
+<g id="edge1" class="edge">
+<title>Squadron--Employs</title>
+<path fill="none" stroke="black" d="M63.86,-573.4C105.93,-573.4 181.47,-573.4 230.57,-573.4"/>
+<text text-anchor="middle" x="141.87" y="-576.7" font-family="Helvetica,sans-Serif" font-size="11.00">1</text>
+</g>
+<!-- Commands -->
+<g id="node13" class="node">
+<title>Commands</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="278.66,-502 220.03,-480.4 278.66,-458.8 337.28,-480.4 278.66,-502"/>
+<text text-anchor="middle" x="278.66" y="-477.1" font-family="Helvetica,sans-Serif" font-size="11.00">Commands</text>
+</g>
+<!-- Squadron&#45;&#45;Commands -->
+<g id="edge3" class="edge">
+<title>Squadron--Commands</title>
+<path fill="none" stroke="black" d="M63.86,-561.62C111.59,-543.49 202.4,-508.99 248.8,-491.36"/>
+<text text-anchor="middle" x="141.87" y="-546.62" font-family="Helvetica,sans-Serif" font-size="11.00">1</text>
+</g>
+<!-- Sqd_id -->
+<g id="node19" class="node">
+<title>Sqd_id</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="278.66" cy="-838.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="262.76" y="-836.1" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">Sqd-id</text>
+</g>
+<!-- Squadron&#45;&#45;Sqd_id -->
+<g id="edge10" class="edge">
+<title>Squadron--Sqd_id</title>
+<path fill="none" stroke="black" d="M41.81,-591.62C54.37,-616.18 78.81,-660.6 106.71,-693.4 149.84,-744.12 169.04,-748.58 220.03,-791.4 234.27,-803.36 250.72,-816.73 262.39,-826.15"/>
+</g>
+<!-- Callsign -->
+<g id="node20" class="node">
+<title>Callsign</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="278.66" cy="-394.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="278.66" y="-391.1" font-family="Helvetica,sans-Serif" font-size="11.00">Callsign</text>
+</g>
+<!-- Squadron&#45;&#45;Callsign -->
+<g id="edge11" class="edge">
+<title>Squadron--Callsign</title>
+<path fill="none" stroke="black" d="M52.67,-555.06C67.23,-541.88 87.71,-523.94 106.71,-509.4 160.26,-468.43 227.63,-425.44 259.44,-405.62"/>
+</g>
+<!-- Specialization -->
+<g id="node21" class="node">
+<title>Specialization</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="278.66" cy="-752.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="278.66" y="-749.1" font-family="Helvetica,sans-Serif" font-size="11.00">Specialization</text>
+</g>
+<!-- Squadron&#45;&#45;Specialization -->
+<g id="edge12" class="edge">
+<title>Squadron--Specialization</title>
+<path fill="none" stroke="black" d="M48.05,-591.87C62.19,-608.38 84.38,-632.64 106.71,-650.4 156.74,-690.21 223.73,-725.75 257.05,-742.4"/>
+</g>
+<!-- Personnel -->
+<g id="node2" class="node">
+<title>Personnel</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="496.76,-633.4 431.23,-633.4 431.23,-597.4 496.76,-597.4 496.76,-633.4"/>
+<text text-anchor="middle" x="463.99" y="-612.1" font-family="Helvetica,sans-Serif" font-size="11.00">Personnel</text>
+</g>
+<!-- Manifest -->
+<g id="node14" class="node">
+<title>Manifest</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="650.5,-561 603.78,-539.4 650.5,-517.8 697.22,-539.4 650.5,-561"/>
+<text text-anchor="middle" x="650.5" y="-536.1" font-family="Helvetica,sans-Serif" font-size="11.00">Manifest</text>
+</g>
+<!-- Personnel&#45;&#45;Manifest -->
+<g id="edge5" class="edge">
+<title>Personnel--Manifest</title>
+<path fill="none" stroke="black" d="M497.13,-602.16C533.48,-587.19 591.86,-563.14 624.81,-549.57"/>
+<text text-anchor="middle" x="544.34" y="-587.51" font-family="Helvetica,sans-Serif" font-size="11.00">N</text>
+</g>
+<!-- d -->
+<g id="node17" class="node">
+<title>d</title>
+<ellipse fill="#f3e5f5" stroke="#7b1fa2" cx="650.5" cy="-897.4" rx="21.6" ry="21.6"/>
+<ellipse fill="none" stroke="#7b1fa2" cx="650.5" cy="-897.4" rx="25.6" ry="25.6"/>
+<text text-anchor="middle" x="650.5" y="-894.1" font-family="Helvetica,sans-Serif" font-size="11.00">d</text>
+</g>
+<!-- Personnel&#45;&#45;d -->
+<g id="edge28" class="edge">
+<title>Personnel--d</title>
+<path fill="none" stroke="black" d="M470.48,-633.68C483.64,-675.23 520.34,-778.43 578.78,-846.4 592.59,-862.47 612.45,-876.22 627.61,-885.37"/>
+</g>
+<!-- Service_id -->
+<g id="node22" class="node">
+<title>Service_id</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-807.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="624.82" y="-805.1" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">Service_id</text>
+</g>
+<!-- Personnel&#45;&#45;Service_id -->
+<g id="edge15" class="edge">
+<title>Personnel--Service_id</title>
+<path fill="none" stroke="black" d="M475.25,-633.7C493.11,-664.35 532.49,-726.69 578.78,-767.4 593.5,-780.35 613.08,-791.03 627.91,-798.09"/>
+</g>
+<!-- Name -->
+<g id="node25" class="node">
+<title>Name</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-728.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="650.5" y="-725.1" font-family="Helvetica,sans-Serif" font-size="11.00">Name</text>
+</g>
+<!-- Personnel&#45;&#45;Name -->
+<g id="edge16" class="edge">
+<title>Personnel--Name</title>
+<path fill="none" stroke="black" d="M490.17,-633.86C504.48,-644.1 522.85,-656.86 539.76,-667.4 570.46,-686.54 607.49,-706.51 629.73,-718.18"/>
+</g>
+<!-- total_flight_hours -->
+<g id="node26" class="node">
+<title>total_flight_hours</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-649.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="650.5" y="-646.1" font-family="Helvetica,sans-Serif" font-size="11.00">total_flight-hours</text>
+</g>
+<!-- Personnel&#45;&#45;total_flight_hours -->
+<g id="edge19" class="edge">
+<title>Personnel--total_flight_hours</title>
+<path fill="none" stroke="black" d="M497.13,-621.32C532.86,-627.91 589.88,-638.41 623.1,-644.54"/>
+</g>
+<!-- Contact_no -->
+<g id="node37" class="node">
+<title>Contact_no</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-991.4" rx="28.8" ry="14.4"/>
+<ellipse fill="none" stroke="#424242" cx="650.5" cy="-991.4" rx="32.8" ry="18.4"/>
+<text text-anchor="middle" x="650.5" y="-988.1" font-family="Helvetica,sans-Serif" font-size="11.00">Contact-no</text>
+</g>
+<!-- Personnel&#45;&#45;Contact_no -->
+<g id="edge20" class="edge">
+<title>Personnel--Contact_no</title>
+<path fill="none" stroke="black" d="M466.84,-633.74C473.11,-687.7 497.93,-848.39 578.78,-948.4 590.43,-962.82 608.3,-973.62 623.16,-980.8"/>
+</g>
+<!-- Aircraft -->
+<g id="node3" class="node">
+<title>Aircraft</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="490.99,-431.4 436.99,-431.4 436.99,-395.4 490.99,-395.4 490.99,-431.4"/>
+<text text-anchor="middle" x="463.99" y="-410.1" font-family="Helvetica,sans-Serif" font-size="11.00">Aircraft</text>
+</g>
+<!-- Aircraft&#45;&#45;Manifest -->
+<g id="edge6" class="edge">
+<title>Aircraft--Manifest</title>
+<path fill="none" stroke="black" d="M491.1,-431.75C514.1,-447.86 548.54,-471.86 578.78,-492.4 596.09,-504.16 615.96,-517.34 630.22,-526.74"/>
+<text text-anchor="middle" x="544.34" y="-474.2" font-family="Helvetica,sans-Serif" font-size="11.00">M</text>
+</g>
+<!-- Requires -->
+<g id="node16" class="node">
+<title>Requires</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="650.5,-126 601.79,-104.4 650.5,-82.8 699.21,-104.4 650.5,-126"/>
+<polygon fill="none" stroke="#f57f17" points="650.5,-130.38 591.92,-104.4 650.5,-78.42 709.08,-104.4 650.5,-130.38"/>
+<text text-anchor="middle" x="650.5" y="-101.1" font-family="Helvetica,sans-Serif" font-size="11.00">Requires</text>
+</g>
+<!-- Aircraft&#45;&#45;Requires -->
+<g id="edge24" class="edge">
+<title>Aircraft--Requires</title>
+<path fill="none" stroke="black" d="M469.44,-395.04C481.05,-350.09 515.81,-232.6 578.78,-155.4 591.03,-140.39 608.71,-127.64 623.32,-118.64"/>
+<text text-anchor="middle" x="544.34" y="-216.03" font-family="Helvetica,sans-Serif" font-size="11.00">1</text>
+</g>
+<!-- Tail_no -->
+<g id="node27" class="node">
+<title>Tail_no</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-14.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="632.46" y="-12.1" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">Tail_no</text>
+</g>
+<!-- Aircraft&#45;&#45;Tail_no -->
+<g id="edge21" class="edge">
+<title>Aircraft--Tail_no</title>
+<path fill="none" stroke="black" d="M466.09,-395.08C470.37,-338.06 490.49,-161.14 578.78,-53.4 590.95,-38.54 610.35,-28.42 625.76,-22.22"/>
+</g>
+<!-- Status -->
+<g id="node28" class="node">
+<title>Status</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-273.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="650.5" y="-270.1" font-family="Helvetica,sans-Serif" font-size="11.00">Status</text>
+</g>
+<!-- Aircraft&#45;&#45;Status -->
+<g id="edge22" class="edge">
+<title>Aircraft--Status</title>
+<path fill="none" stroke="black" d="M472.46,-395.23C483.49,-370.65 506.5,-327.16 539.76,-303.4 564.19,-285.95 598.3,-278.64 621.98,-275.59"/>
+</g>
+<!-- Model -->
+<g id="node29" class="node">
+<title>Model</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-194.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="650.5" y="-191.1" font-family="Helvetica,sans-Serif" font-size="11.00">Model</text>
+</g>
+<!-- Aircraft&#45;&#45;Model -->
+<g id="edge23" class="edge">
+<title>Aircraft--Model</title>
+<path fill="none" stroke="black" d="M472.46,-395.01C487.63,-359.63 525.25,-281.43 578.78,-234.4 593.51,-221.46 613.09,-210.78 627.92,-203.72"/>
+</g>
+<!-- Mission -->
+<g id="node4" class="node">
+<title>Mission</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="490.99,-547.4 436.99,-547.4 436.99,-511.4 490.99,-511.4 490.99,-547.4"/>
+<text text-anchor="middle" x="463.99" y="-526.1" font-family="Helvetica,sans-Serif" font-size="11.00">Mission</text>
+</g>
+<!-- Mission&#45;&#45;Manifest -->
+<g id="edge7" class="edge">
+<title>Mission--Manifest</title>
+<path fill="none" stroke="black" d="M491.43,-530.83C521.82,-532.48 572.1,-535.2 607.78,-537.14"/>
+<text text-anchor="middle" x="544.34" y="-537.1" font-family="Helvetica,sans-Serif" font-size="11.00">P</text>
+</g>
+<!-- o -->
+<g id="node18" class="node">
+<title>o</title>
+<ellipse fill="#f3e5f5" stroke="#7b1fa2" cx="650.5" cy="-363.4" rx="21.6" ry="21.6"/>
+<ellipse fill="none" stroke="#7b1fa2" cx="650.5" cy="-363.4" rx="25.6" ry="25.6"/>
+<text text-anchor="middle" x="650.5" y="-360.1" font-family="Helvetica,sans-Serif" font-size="11.00">o</text>
+</g>
+<!-- Mission&#45;&#45;o -->
+<g id="edge33" class="edge">
+<title>Mission--o</title>
+<path fill="none" stroke="black" d="M481.48,-510.93C502.87,-487.4 541.86,-445.99 578.78,-414.4 594.65,-400.82 613.96,-387.06 628.39,-377.26"/>
+</g>
+<!-- Mission_id -->
+<g id="node31" class="node">
+<title>Mission_id</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="650.5" cy="-453.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="625.75" y="-451.1" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">Mission-id</text>
+</g>
+<!-- Mission&#45;&#45;Mission_id -->
+<g id="edge27" class="edge">
+<title>Mission--Mission_id</title>
+<path fill="none" stroke="black" d="M491.07,-517.8C514.05,-507.67 548.49,-492.7 578.78,-480.4 594.61,-473.97 612.6,-467.11 626.47,-461.91"/>
+</g>
+<!-- Munition -->
+<g id="node5" class="node">
+<title>Munition</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="1086.94,-557.4 1029.36,-557.4 1029.36,-521.4 1086.94,-521.4 1086.94,-557.4"/>
+<text text-anchor="middle" x="1058.15" y="-536.1" font-family="Helvetica,sans-Serif" font-size="11.00">Munition</text>
+</g>
+<!-- Munition_id -->
+<g id="node32" class="node">
+<title>Munition_id</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1202.75" cy="-618.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="1175.85" y="-616.1" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">Munition-id</text>
+</g>
+<!-- Munition&#45;&#45;Munition_id -->
+<g id="edge36" class="edge">
+<title>Munition--Munition_id</title>
+<path fill="none" stroke="black" d="M1087.33,-555.01C1115.57,-570.66 1158.28,-594.32 1182.75,-607.87"/>
+</g>
+<!-- Type -->
+<g id="node33" class="node">
+<title>Type</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1202.75" cy="-539.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="1202.75" y="-536.1" font-family="Helvetica,sans-Serif" font-size="11.00">Type</text>
+</g>
+<!-- Munition&#45;&#45;Type -->
+<g id="edge37" class="edge">
+<title>Munition--Type</title>
+<path fill="none" stroke="black" d="M1087.33,-539.4C1112.33,-539.4 1148.66,-539.4 1173.64,-539.4"/>
+</g>
+<!-- Stock -->
+<g id="node34" class="node">
+<title>Stock</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1202.75" cy="-460.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="1202.75" y="-457.1" font-family="Helvetica,sans-Serif" font-size="11.00">Stock</text>
+</g>
+<!-- Munition&#45;&#45;Stock -->
+<g id="edge38" class="edge">
+<title>Munition--Stock</title>
+<path fill="none" stroke="black" d="M1087.33,-523.79C1115.57,-508.14 1158.28,-484.48 1182.75,-470.93"/>
+</g>
+<!-- Pilot -->
+<g id="node6" class="node">
+<title>Pilot</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="896.83,-961.4 842.83,-961.4 842.83,-925.4 896.83,-925.4 896.83,-961.4"/>
+<text text-anchor="middle" x="869.83" y="-940.1" font-family="Helvetica,sans-Serif" font-size="11.00">Pilot</text>
+</g>
+<!-- Flight_rating -->
+<g id="node35" class="node">
+<title>Flight_rating</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1058.15" cy="-943.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="1058.15" y="-940.1" font-family="Helvetica,sans-Serif" font-size="11.00">Flight-rating</text>
+</g>
+<!-- Pilot&#45;&#45;Flight_rating -->
+<g id="edge31" class="edge">
+<title>Pilot--Flight_rating</title>
+<path fill="none" stroke="black" d="M897.13,-943.4C932.04,-943.4 993.42,-943.4 1029.16,-943.4"/>
+</g>
+<!-- Technician -->
+<g id="node7" class="node">
+<title>Technician</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="904.42,-875.4 835.23,-875.4 835.23,-839.4 904.42,-839.4 904.42,-875.4"/>
+<text text-anchor="middle" x="869.83" y="-854.1" font-family="Helvetica,sans-Serif" font-size="11.00">Technician</text>
+</g>
+<!-- Clearance_lvl -->
+<g id="node36" class="node">
+<title>Clearance_lvl</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1058.15" cy="-857.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="1058.15" y="-854.1" font-family="Helvetica,sans-Serif" font-size="11.00">Clearance-lvl</text>
+</g>
+<!-- Technician&#45;&#45;Clearance_lvl -->
+<g id="edge32" class="edge">
+<title>Technician--Clearance_lvl</title>
+<path fill="none" stroke="black" d="M904.57,-857.4C940.22,-857.4 995.81,-857.4 1029.13,-857.4"/>
+</g>
+<!-- Combat_mission -->
+<g id="node8" class="node">
+<title>Combat_mission</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="917.56,-338.4 822.09,-338.4 822.09,-302.4 917.56,-302.4 917.56,-338.4"/>
+<text text-anchor="middle" x="869.83" y="-317.1" font-family="Helvetica,sans-Serif" font-size="11.00">Combat-mission</text>
+</g>
+<!-- Training_mission -->
+<g id="node9" class="node">
+<title>Training_mission</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="918.17,-424.4 821.48,-424.4 821.48,-388.4 918.17,-388.4 918.17,-424.4"/>
+<text text-anchor="middle" x="869.83" y="-403.1" font-family="Helvetica,sans-Serif" font-size="11.00">Training-mission</text>
+</g>
+<!-- Maintenance_log -->
+<g id="node10" class="node">
+<title>Maintenance_log</title>
+<polygon fill="#e3f2fd" stroke="#1565c0" points="918.49,-122.4 821.16,-122.4 821.16,-86.4 918.49,-86.4 918.49,-122.4"/>
+<polygon fill="none" stroke="#1565c0" points="922.49,-126.4 817.16,-126.4 817.16,-82.4 922.49,-82.4 922.49,-126.4"/>
+<text text-anchor="middle" x="869.83" y="-101.1" font-family="Helvetica,sans-Serif" font-size="11.00">Maintenance-log</text>
+</g>
+<!-- log_date -->
+<g id="node30" class="node">
+<title>log_date</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="1058.15" cy="-104.4" rx="28.8" ry="14.4"/>
+<text text-anchor="start" x="1037.05" y="-106.5" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="11.00">log_date</text>
+<text text-anchor="start" x="1039.51" y="-95.5" font-family="Helvetica,sans-Serif" font-size="11.00">(partial)</text>
+</g>
+<!-- Maintenance_log&#45;&#45;log_date -->
+<g id="edge26" class="edge">
+<title>Maintenance_log--log_date</title>
+<path fill="none" stroke="black" d="M922.73,-104.4C957.08,-104.4 1000.81,-104.4 1028.89,-104.4"/>
+</g>
+<!-- Reports_to&#45;&#45;Squadron -->
+<g id="edge14" class="edge">
+<title>Reports_to--Squadron</title>
+<path fill="none" stroke="black" d="M231.8,-670.56C195.99,-671.86 145.9,-669.32 106.71,-650.4 79.68,-637.35 57.29,-609.98 44.48,-591.64"/>
+<text text-anchor="middle" x="141.87" y="-671.79" font-family="Helvetica,sans-Serif" font-size="11.00">Subordinate N</text>
+</g>
+<!-- Employs&#45;&#45;Personnel -->
+<g id="edge2" class="edge">
+<title>Employs--Personnel</title>
+<path fill="none" stroke="black" d="M311.17,-580.62C344.65,-588.29 397.29,-600.35 430.97,-608.06"/>
+<text text-anchor="middle" x="384.26" y="-601.46" font-family="Helvetica,sans-Serif" font-size="11.00">N</text>
+</g>
+<!-- Commands&#45;&#45;Aircraft -->
+<g id="edge4" class="edge">
+<title>Commands--Aircraft</title>
+<path fill="none" stroke="black" d="M309.11,-469.64C344.34,-456.76 402.77,-435.41 436.59,-423.05"/>
+<text text-anchor="middle" x="384.26" y="-446.19" font-family="Helvetica,sans-Serif" font-size="11.00">N</text>
+</g>
+<!-- Uses_loadout -->
+<g id="node15" class="node">
+<title>Uses_loadout</title>
+<polygon fill="#fff8e1" stroke="#f57f17" points="869.83,-561 804.24,-539.4 869.83,-517.8 935.41,-539.4 869.83,-561"/>
+<text text-anchor="middle" x="869.83" y="-536.1" font-family="Helvetica,sans-Serif" font-size="11.00">Uses-loadout</text>
+</g>
+<!-- Manifest&#45;&#45;Uses_loadout -->
+<g id="edge8" class="edge">
+<title>Manifest--Uses_loadout</title>
+<path fill="none" stroke="black" d="M698.39,-539.4C728.84,-539.4 768.97,-539.4 802.65,-539.4"/>
+<text text-anchor="middle" x="756.66" y="-542.7" font-family="Helvetica,sans-Serif" font-size="11.00">M</text>
+</g>
+<!-- Uses_loadout&#45;&#45;Munition -->
+<g id="edge9" class="edge">
+<title>Uses_loadout--Munition</title>
+<path fill="none" stroke="black" d="M936.78,-539.4C968.4,-539.4 1004.59,-539.4 1028.97,-539.4"/>
+<text text-anchor="middle" x="982.38" y="-542.7" font-family="Helvetica,sans-Serif" font-size="11.00">N</text>
+</g>
+<!-- Requires&#45;&#45;Maintenance_log -->
+<g id="edge25" class="edge">
+<title>Requires--Maintenance_log</title>
+<path fill="none" stroke="black" d="M710.31,-104.4C743.62,-104.4 784.92,-104.4 817,-104.4"/>
+<text text-anchor="middle" x="756.66" y="-107.7" font-family="Helvetica,sans-Serif" font-size="11.00">N</text>
+</g>
+<!-- d&#45;&#45;Pilot -->
+<g id="edge29" class="edge">
+<title>d--Pilot</title>
+<path fill="none" stroke="black" d="M676.01,-902.59C717.19,-911.3 799.93,-928.82 842.38,-937.8"/>
+</g>
+<!-- d&#45;&#45;Technician -->
+<g id="edge30" class="edge">
+<title>d--Technician</title>
+<path fill="none" stroke="black" d="M676.01,-892.89C714.86,-885.74 790.7,-871.78 834.8,-863.66"/>
+</g>
+<!-- o&#45;&#45;Combat_mission -->
+<g id="edge34" class="edge">
+<title>o--Combat_mission</title>
+<path fill="none" stroke="black" d="M676.01,-358.55C711.31,-351.57 777.14,-338.54 821.96,-329.67"/>
+</g>
+<!-- o&#45;&#45;Training_mission -->
+<g id="edge35" class="edge">
+<title>o--Training_mission</title>
+<path fill="none" stroke="black" d="M676.01,-368.25C711.09,-375.19 776.31,-388.1 821.11,-396.96"/>
+</g>
+<!-- fname -->
+<g id="node23" class="node">
+<title>fname</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="869.83" cy="-751.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="869.83" y="-748.1" font-family="Helvetica,sans-Serif" font-size="11.00">fname</text>
+</g>
+<!-- lname -->
+<g id="node24" class="node">
+<title>lname</title>
+<ellipse fill="#fafafa" stroke="#424242" cx="869.83" cy="-672.4" rx="28.8" ry="14.4"/>
+<text text-anchor="middle" x="869.83" y="-669.1" font-family="Helvetica,sans-Serif" font-size="11.00">lname</text>
+</g>
+<!-- Name&#45;&#45;fname -->
+<g id="edge17" class="edge">
+<title>Name--fname</title>
+<path fill="none" stroke="black" d="M679.02,-731.31C720.71,-735.73 799.42,-744.05 841.18,-748.47"/>
+</g>
+<!-- Name&#45;&#45;lname -->
+<g id="edge18" class="edge">
+<title>Name--lname</title>
+<path fill="none" stroke="black" d="M676.43,-721.98C718.13,-711.23 801.57,-689.73 843.52,-678.92"/>
+</g>
+</g>
+</svg>
